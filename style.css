@@ -1,36 +1,42 @@
-.line{
+.line {
     width: 450px;
     height: 5px;
     background-color: aquamarine;
 }
-p{
+
+p {
     max-width: 425px;
     font-size: 20px;
     text-align: justify;
     font-family: 'Roboto Mono', monospace;
 }
-img{
+
+img {
     height: 250px;
     width: 300px;
     border: 3px groove aquamarine;
     border-radius: 10px;
     margin-top: 100px;
 }
-h1{
-  font-family: 'Work Sans', sans-serif;  
-color: orangered;
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    color: orangered;
     font-size: 36px;
 }
-h3{
+
+h3 {
     font-family: 'Bodoni Moda', serif;
     color: orangered;
     font-size: 22px;
 }
-#bio{
+
+#bio {
     padding-top: 600px;
 }
-#welcome{
-    background: linear-gradient(#f79d00 , #64f38c);
+
+#welcome {
+    background: linear-gradient(#f79d00, #64f38c);
     height: 550px;
     position: absolute;
     top: 0;
@@ -39,24 +45,42 @@ h3{
     right: 0;
     z-index: 1;
 }
-.menu{
+
+.menu {
     top: 15px;
     right: 30px;
     z-index: 99;
     list-style: none;
     position: fixed;
 }
-.l{
-    float:left;
+
+.l {
+    float: left;
     padding: 10px;
     margin: 10px;
     font-size: 20px;
     font-family: fantasy;
 }
-.l:hover{
+
+.l:hover {
     cursor: pointer;
     background-color: blue;
     color: coral;
-    text-decoration: overline;
+
     text-decoration-color: antiquewhite;
+}
+
+#articles a {
+    font-size: 28px;
+    color: orangered;
+    text-decoration: none;
+}
+
+a {
+    color: orangered;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
 }
